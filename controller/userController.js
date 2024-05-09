@@ -40,9 +40,9 @@ exports.getOneUser = async function(req, res) {
 // Post One entrie  in database
 exports.createOneUser = async function(req, res) {
     try {
-        const { user_name, user_email, user_password } = req.body;
-        const hashPassword = await bcrypt.hash(user_password, 12); 
-        const newUser = await pool.query('INSERT INTO users(user_name, user_email, user_password) VALUES ($1, $2, $3) RETURNING *', [user_name, user_email, hashPassword]);
+        const { name, email, password } = req.body;
+        const hashPassword = await bcrypt.hash(password, 12); 
+        const newUser = await pool.query('INSERT INTO users(user_name, user_email, user_password) VALUES ($1, $2, $3) RETURNING *', [name, email, hashPassword]);
         res.json(newUser.rows[0]);
     } catch (error) {
         console.error(error.message);
