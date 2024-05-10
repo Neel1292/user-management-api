@@ -1,5 +1,7 @@
 # User Management API 
 
+## You can simply run this file and view the output in Postman because this is conneted with the Azure PostgresSQL Server.
+
 ### Step to follow:
 
 Step 1: Clone this Repository
