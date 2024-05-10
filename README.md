@@ -25,4 +25,4 @@ Step 4: Now Open Browser or Postman and type [localhost:8989/users](http://local
 
 ```Note: -> ":email" replace this by your email you have created```
 
- ```-    > Password are stored in enycrypted form so please store your email and password after creating user.```
+ ```      -> Password are stored in enycrypted form so please store your email and password after creating user.```
