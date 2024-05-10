@@ -1,5 +1,7 @@
 # User Management API 
 
+## You can simply run this file and view the output in Postman because this is conneted with the Azure PostgresSQL Server.
+
 ### Step to follow:
 
 Step 1: Clone this Repository
@@ -25,4 +27,4 @@ Step 4: Now Open Browser or Postman and type [localhost:8989/users](http://local
 
 ```Note: -> ":email" replace this by your email you have created```
 
- ```-> Password are stored in enycrypted form so please store your email and password after creating user.```
+ ```      -> Password are stored in enycrypted form so please store your email and password after creating user.```
