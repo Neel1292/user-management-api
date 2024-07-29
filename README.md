@@ -17,11 +17,11 @@ Step 4: Now Open Browser or Postman and type [localhost:8989/users](http://local
 
 ## API's in this application
 
-[localhost:8989/users](http://localhost:8989/users)  to get all user
+[/users](http://localhost:8989/users)  to get all user
 
-[localhost:8989/create/user](http://localhost:8989/create/user)  to create user
+[/create/user](http://localhost:8989/create/user)  to create user
 
-[localhost:8989/update/:email](http://localhost:8989/update/:email)  to upate users password
+[/update/:email](http://localhost:8989/update/:email)  to upate users password
 
 [localhost:8989/delete/user](http://localhost:8989/delete/user)  to delete user
 
